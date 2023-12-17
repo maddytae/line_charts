@@ -1,0 +1,469 @@
+Country,City,Scenario,Period,Value,Axis
+CountryA,large,mild,PQ0,25.488135039273246,temperature
+CountryA,large,mild,PQ0,171.51893663724195,rainfall
+CountryA,large,mild,PQ1,26.02763376071644,temperature
+CountryA,large,mild,PQ1,154.4883182996897,rainfall
+CountryA,large,mild,PQ2,24.236547993389046,temperature
+CountryA,large,mild,PQ2,164.58941130666562,rainfall
+CountryA,large,mild,PQ3,24.375872112626926,temperature
+CountryA,large,mild,PQ3,189.17730007820796,rainfall
+CountryA,large,mild,PQ4,29.636627605010293,temperature
+CountryA,large,mild,PQ4,138.34415188257776,rainfall
+CountryA,large,mild,PQ5,27.917250380826644,temperature
+CountryA,large,mild,PQ5,152.88949197529044,rainfall
+CountryA,large,mild,PQ6,25.680445610939323,temperature
+CountryA,large,mild,PQ6,192.5596638292661,rainfall
+CountryA,large,mild,PQ7,20.71036058197887,temperature
+CountryA,large,mild,PQ7,108.71292997015408,rainfall
+CountryA,large,mild,PQ8,20.20218397440326,temperature
+CountryA,large,mild,PQ8,183.2619845547938,rainfall
+CountryA,large,mild,PQ9,27.781567509498505,temperature
+CountryA,large,mild,PQ9,187.0012148246819,rainfall
+CountryA,large,mild,PQ10,29.78618342232764,temperature
+CountryA,large,mild,PQ10,179.91585642167234,rainfall
+CountryA,large,mild,PQ11,24.61479362252932,temperature
+CountryA,large,mild,PQ11,178.05291762864556,rainfall
+CountryA,large,mild,PQ12,21.182744258689333,temperature
+CountryA,large,mild,PQ12,163.9921021327524,rainfall
+CountryA,large,extreme,PQ0,21.433532874090464,temperature
+CountryA,large,extreme,PQ0,194.46689170495839,rainfall
+CountryA,large,extreme,PQ1,25.21848321750072,temperature
+CountryA,large,extreme,PQ1,141.46619399905236,rainfall
+CountryA,large,extreme,PQ2,22.64555612104627,temperature
+CountryA,large,extreme,PQ2,177.42336894342168,rainfall
+CountryA,large,extreme,PQ3,24.561503322165485,temperature
+CountryA,large,extreme,PQ3,156.84339488686484,rainfall
+CountryA,large,extreme,PQ4,20.18789800436355,temperature
+CountryA,large,extreme,PQ4,161.7635497075877,rainfall
+CountryA,large,extreme,PQ5,26.120957227224213,temperature
+CountryA,large,extreme,PQ5,161.69339968747568,rainfall
+CountryA,large,extreme,PQ6,29.437480785146242,temperature
+CountryA,large,extreme,PQ6,168.18202991034835,rainfall
+CountryA,large,extreme,PQ7,23.59507900573786,temperature
+CountryA,large,extreme,PQ7,143.70319537993413,rainfall
+CountryA,large,extreme,PQ8,26.97631195927265,temperature
+CountryA,large,extreme,PQ8,106.02254716292698,rainfall
+CountryA,large,extreme,PQ9,26.667667154456677,temperature
+CountryA,large,extreme,PQ9,167.06378696181594,rainfall
+CountryA,large,extreme,PQ10,22.103825610738408,temperature
+CountryA,large,extreme,PQ10,112.89262976548534,rainfall
+CountryA,large,extreme,PQ11,23.15428350924184,temperature
+CountryA,large,extreme,PQ11,136.37107709426226,rainfall
+CountryA,large,extreme,PQ12,25.7019677041788,temperature
+CountryA,large,extreme,PQ12,143.86015134623204,rainfall
+CountryA,large,very extreme,PQ0,29.883738380592263,temperature
+CountryA,large,very extreme,PQ0,110.2044810748028,rainfall
+CountryA,large,very extreme,PQ1,22.088767560948348,temperature
+CountryA,large,very extreme,PQ1,116.13095178849963,rainfall
+CountryA,large,very extreme,PQ2,26.531083254653986,temperature
+CountryA,large,very extreme,PQ2,125.32916025397822,rainfall
+CountryA,large,very extreme,PQ3,24.663107728563062,temperature
+CountryA,large,very extreme,PQ3,124.44255920016028,rainfall
+CountryA,large,very extreme,PQ4,21.589695836455196,temperature
+CountryA,large,very extreme,PQ4,111.03751411643051,rainfall
+CountryA,large,very extreme,PQ5,26.563295894652732,temperature
+CountryA,large,very extreme,PQ5,113.81829513486139,rainfall
+CountryA,large,very extreme,PQ6,21.965823616800535,temperature
+CountryA,large,very extreme,PQ6,136.8725170660964,rainfall
+CountryA,large,very extreme,PQ7,28.20993229847935,temperature
+CountryA,large,very extreme,PQ7,109.71012757930613,rainfall
+CountryA,large,very extreme,PQ8,28.379449074988038,temperature
+CountryA,large,very extreme,PQ8,109.6098407893963,rainfall
+CountryA,large,very extreme,PQ9,29.764594650133958,temperature
+CountryA,large,very extreme,PQ9,146.86512016477016,rainfall
+CountryA,large,very extreme,PQ10,29.767610881903373,temperature
+CountryA,large,very extreme,PQ10,160.4845519745046,rainfall
+CountryA,large,very extreme,PQ11,27.39263579398302,temperature
+CountryA,large,very extreme,PQ11,103.91877922543206,rainfall
+CountryA,large,very extreme,PQ12,22.828069625764094,temperature
+CountryA,large,very extreme,PQ12,112.01965612131688,rainfall
+CountryA,small,mild,PQ0,22.96140197522145,temperature
+CountryA,small,mild,PQ0,111.8727718954244,rainfall
+CountryA,small,mild,PQ1,23.179831793939762,temperature
+CountryA,small,mild,PQ1,141.426299451467,rainfall
+CountryA,small,mild,PQ2,20.641474963487845,temperature
+CountryA,small,mild,PQ2,169.24721193700196,rainfall
+CountryA,small,mild,PQ3,25.666014542065753,temperature
+CountryA,small,mild,PQ3,126.53894909394454,rainfall
+CountryA,small,mild,PQ4,25.232480534666998,temperature
+CountryA,small,mild,PQ4,109.39405107584417,rainfall
+CountryA,small,mild,PQ5,25.759464955561793,temperature
+CountryA,small,mild,PQ5,192.92961975762142,rainfall
+CountryA,small,mild,PQ6,23.185689524513236,temperature
+CountryA,small,mild,PQ6,166.74103799636816,rainfall
+CountryA,small,mild,PQ7,21.31797862404392,temperature
+CountryA,small,mild,PQ7,171.63272041185655,rainfall
+CountryA,small,mild,PQ8,22.894060929472012,temperature
+CountryA,small,mild,PQ8,118.31913620071168,rainfall
+CountryA,small,mild,PQ9,25.86512934810083,temperature
+CountryA,small,mild,PQ9,102.01075461874936,rainfall
+CountryA,small,mild,PQ10,28.28940029217363,temperature
+CountryA,small,mild,PQ10,100.46954761925471,rainfall
+CountryA,small,mild,PQ11,26.778165367962302,temperature
+CountryA,small,mild,PQ11,127.00079731921649,rainfall
+CountryA,small,mild,PQ12,27.35194022122595,temperature
+CountryA,small,mild,PQ12,196.2188545117438,rainfall
+CountryA,small,extreme,PQ0,22.48753143519958,temperature
+CountryA,small,extreme,PQ0,157.61573344178368,rainfall
+CountryA,small,extreme,PQ1,25.92041931271839,temperature
+CountryA,small,extreme,PQ1,157.22519057908733,rainfall
+CountryA,small,extreme,PQ2,22.230816326406185,temperature
+CountryA,small,extreme,PQ2,195.2749011516985,rainfall
+CountryA,small,extreme,PQ3,24.471253786176273,temperature
+CountryA,small,extreme,PQ3,184.6408672471128,rainfall
+CountryA,small,extreme,PQ4,26.99479275317504,temperature
+CountryA,small,extreme,PQ4,129.74369508551337,rainfall
+CountryA,small,extreme,PQ5,28.137978197024772,temperature
+CountryA,small,extreme,PQ5,139.65057408469846,rainfall
+CountryA,small,extreme,PQ6,28.811031971111618,temperature
+CountryA,small,extreme,PQ6,158.12728726358586,rainfall
+CountryA,small,extreme,PQ7,28.81735361854853,temperature
+CountryA,small,extreme,PQ7,169.2531590077766,rainfall
+CountryA,small,extreme,PQ8,27.252542798196405,temperature
+CountryA,small,extreme,PQ8,150.13243819267024,rainfall
+CountryA,small,extreme,PQ9,29.56083634723224,temperature
+CountryA,small,extreme,PQ9,164.39901992296376,rainfall
+CountryA,small,extreme,PQ10,24.238550485581797,temperature
+CountryA,small,extreme,PQ10,160.63932141279244,rainfall
+CountryA,small,extreme,PQ11,20.191931983093337,temperature
+CountryA,small,extreme,PQ11,130.15748166745493,rainfall
+CountryA,small,extreme,PQ12,26.60173537492685,temperature
+CountryA,small,extreme,PQ12,129.0077607210444,rainfall
+CountryA,small,very extreme,PQ0,26.180154289988415,temperature
+CountryA,small,very extreme,PQ0,142.87687009457662,rainfall
+CountryA,small,very extreme,PQ1,21.354740642224503,temperature
+CountryA,small,very extreme,PQ1,129.82823259560308,rainfall
+CountryA,small,very extreme,PQ2,25.699649107012647,temperature
+CountryA,small,very extreme,PQ2,159.08727612481732,rainfall
+CountryA,small,very extreme,PQ3,25.743252488495788,temperature
+CountryA,small,very extreme,PQ3,165.32008198571336,rainfall
+CountryA,small,very extreme,PQ4,26.52103270001689,temperature
+CountryA,small,very extreme,PQ4,143.14184354339739,rainfall
+CountryA,small,very extreme,PQ5,28.96546595851063,temperature
+CountryA,small,very extreme,PQ5,136.75618700478964,rainfall
+CountryA,small,very extreme,PQ6,24.358649252656267,temperature
+CountryA,small,very extreme,PQ6,189.19233550156721,rainfall
+CountryA,small,very extreme,PQ7,28.061939890460856,temperature
+CountryA,small,very extreme,PQ7,170.38885835403664,rainfall
+CountryA,small,very extreme,PQ8,21.00226887312301,temperature
+CountryA,small,very extreme,PQ8,191.94826137446734,rainfall
+CountryA,small,very extreme,PQ9,27.142412995491114,temperature
+CountryA,small,very extreme,PQ9,199.88470065678666,rainfall
+CountryA,small,very extreme,PQ10,21.494483046579937,temperature
+CountryA,small,very extreme,PQ10,186.8126057368214,rainfall
+CountryA,small,very extreme,PQ11,21.62492934676375,temperature
+CountryA,small,very extreme,PQ11,161.55595642838443,rainfall
+CountryA,small,very extreme,PQ12,21.238199828494416,temperature
+CountryA,small,very extreme,PQ12,184.80082293222344,rainfall
+CountryB,large,mild,PQ0,28.073189587250106,temperature
+CountryB,large,mild,PQ0,156.91007386145932,rainfall
+CountryB,large,mild,PQ1,24.071832972259998,temperature
+CountryB,large,mild,PQ1,106.91669954551381,rainfall
+CountryB,large,mild,PQ2,26.974287731445635,temperature
+CountryB,large,mild,PQ2,145.3542682678069,rainfall
+CountryB,large,mild,PQ3,27.22055599470348,temperature
+CountryB,large,mild,PQ3,186.63823259286292,rainfall
+CountryB,large,mild,PQ4,29.75521505002886,temperature
+CountryB,large,mild,PQ4,185.5803342392611,rainfall
+CountryB,large,mild,PQ5,20.11714084185002,temperature
+CountryB,large,mild,PQ5,135.99780644783638,rainfall
+CountryB,large,mild,PQ6,27.29990562424058,temperature
+CountryB,large,mild,PQ6,117.16296772614405,rainfall
+CountryB,large,mild,PQ7,25.21036606204129,temperature
+CountryB,large,mild,PQ7,105.43379883392537,rainfall
+CountryB,large,mild,PQ8,21.999965248964,temperature
+CountryB,large,mild,PQ8,101.8521794460614,rainfall
+CountryB,large,mild,PQ9,27.936977033574205,temperature
+CountryB,large,mild,PQ9,122.39246880603801,rainfall
+CountryB,large,mild,PQ10,23.453516806969027,temperature
+CountryB,large,mild,PQ10,192.8081293465591,rainfall
+CountryB,large,mild,PQ11,27.044144019235326,temperature
+CountryB,large,mild,PQ11,103.18389295313078,rainfall
+CountryB,large,mild,PQ12,21.646941564979127,temperature
+CountryB,large,mild,PQ12,162.14784014997636,rainfall
+CountryB,large,extreme,PQ0,25.772285886041676,temperature
+CountryB,large,extreme,PQ0,123.78928213745087,rainfall
+CountryB,large,extreme,PQ1,29.34213997924794,temperature
+CountryB,large,extreme,PQ1,161.3965955965896,rainfall
+CountryB,large,extreme,PQ2,25.356328030249582,temperature
+CountryB,large,extreme,PQ2,158.9909976354571,rainfall
+CountryB,large,extreme,PQ3,27.301220295167695,temperature
+CountryB,large,extreme,PQ3,131.1944995479602,rainfall
+CountryB,large,extreme,PQ4,23.98221062216092,temperature
+CountryB,large,extreme,PQ4,120.98437489751221,rainfall
+CountryB,large,extreme,PQ5,21.861930058803363,temperature
+CountryB,large,extreme,PQ5,194.43723899839335,rainfall
+CountryB,large,extreme,PQ6,27.395507950492878,temperature
+CountryB,large,extreme,PQ6,149.0458808617567,rainfall
+CountryB,large,extreme,PQ7,22.27414627973323,temperature
+CountryB,large,extreme,PQ7,125.4356481770393,rainfall
+CountryB,large,extreme,PQ8,20.580291603238756,temperature
+CountryB,large,extreme,PQ8,143.4416625558121,rainfall
+CountryB,large,extreme,PQ9,23.117958819941027,temperature
+CountryB,large,extreme,PQ9,169.63434888154595,rainfall
+CountryB,large,extreme,PQ10,23.777518392924808,temperature
+CountryB,large,extreme,PQ10,117.96036775596349,rainfall
+CountryB,large,extreme,PQ11,20.246787283913314,temperature
+CountryB,large,extreme,PQ11,106.72496314632485,rainfall
+CountryB,large,extreme,PQ12,26.793927734985672,temperature
+CountryB,large,extreme,PQ12,145.36968445560453,rainfall
+CountryB,large,very extreme,PQ0,25.365792111087224,temperature
+CountryB,large,very extreme,PQ0,189.6671293040342,rainfall
+CountryB,large,very extreme,PQ1,29.903389473967046,temperature
+CountryB,large,very extreme,PQ1,121.68969843984739,rainfall
+CountryB,large,very extreme,PQ2,26.630782031001008,temperature
+CountryB,large,very extreme,PQ2,126.33223767371507,rainfall
+CountryB,large,very extreme,PQ3,20.20650999465729,temperature
+CountryB,large,very extreme,PQ3,175.83786538361414,rainfall
+CountryB,large,very extreme,PQ4,23.200171508224678,temperature
+CountryB,large,very extreme,PQ4,138.3463894171898,rainfall
+CountryB,large,very extreme,PQ5,25.883171135536056,temperature
+CountryB,large,very extreme,PQ5,183.10484552361905,rainfall
+CountryB,large,very extreme,PQ6,26.289818435911485,temperature
+CountryB,large,very extreme,PQ6,187.2650655447395,rainfall
+CountryB,large,very extreme,PQ7,22.735420348156357,temperature
+CountryB,large,very extreme,PQ7,179.8046833912564,rainfall
+CountryB,large,very extreme,PQ8,21.85635944305952,temperature
+CountryB,large,very extreme,PQ8,195.27916569719446,rainfall
+CountryB,large,very extreme,PQ9,26.874882763878155,temperature
+CountryB,large,very extreme,PQ9,121.55076771135585,rainfall
+CountryB,large,very extreme,PQ10,29.473705904889243,temperature
+CountryB,large,very extreme,PQ10,173.0855806770158,rainfall
+CountryB,large,very extreme,PQ11,22.539416425950257,temperature
+CountryB,large,very extreme,PQ11,121.3311977367482,rainfall
+CountryB,large,very extreme,PQ12,25.182007139306634,temperature
+CountryB,large,very extreme,PQ12,102.56627180545316,rainfall
+CountryB,small,mild,PQ0,22.074700754411094,temperature
+CountryB,small,mild,PQ0,142.46854687515062,rainfall
+CountryB,small,mild,PQ1,23.741699803342257,temperature
+CountryB,small,mild,PQ1,146.35754243648108,rainfall
+CountryB,small,mild,PQ2,22.77628706294732,temperature
+CountryB,small,mild,PQ2,158.67843464581688,rainfall
+CountryB,small,mild,PQ3,28.638556059232315,temperature
+CountryB,small,mild,PQ3,111.75318559620331,rainfall
+CountryB,small,mild,PQ4,25.173791071541142,temperature
+CountryB,small,mild,PQ4,113.20681063451534,rainfall
+CountryB,small,mild,PQ5,27.168596811925937,temperature
+CountryB,small,mild,PQ5,139.60597028072937,rainfall
+CountryB,small,mild,PQ6,25.65421311858509,temperature
+CountryB,small,mild,PQ6,118.32798362140787,rainfall
+CountryB,small,mild,PQ7,21.448477593433772,temperature
+CountryB,small,mild,PQ7,148.80562806489547,rainfall
+CountryB,small,mild,PQ8,23.556127378499557,temperature
+CountryB,small,mild,PQ8,194.0431945252813,rainfall
+CountryB,small,mild,PQ9,27.65325253806965,temperature
+CountryB,small,mild,PQ9,174.8663619850547,rainfall
+CountryB,small,mild,PQ10,29.037197397459334,temperature
+CountryB,small,mild,PQ10,108.34224354420185,rainfall
+CountryB,small,mild,PQ11,25.521924699224066,temperature
+CountryB,small,mild,PQ11,158.44760689557688,rainfall
+CountryB,small,mild,PQ12,29.619363785472288,temperature
+CountryB,small,mild,PQ12,129.2147526792549,rainfall
+CountryB,small,extreme,PQ0,22.40828779915447,temperature
+CountryB,small,extreme,PQ0,110.02939422654978,rainfall
+CountryB,small,extreme,PQ1,20.164296295914742,temperature
+CountryB,small,extreme,PQ1,192.95293167921903,rainfall
+CountryB,small,extreme,PQ2,26.6991654659091,temperature
+CountryB,small,extreme,PQ2,178.5152912023138,rainfall
+CountryB,small,extreme,PQ3,22.817301057539492,temperature
+CountryB,small,extreme,PQ3,158.64101661863268,rainfall
+CountryB,small,extreme,PQ4,20.639552661209812,temperature
+CountryB,small,extreme,PQ4,148.5627595934623,rainfall
+CountryB,small,extreme,PQ5,29.774951397444468,temperature
+CountryB,small,extreme,PQ5,187.65052453165907,rainfall
+CountryB,small,extreme,PQ6,23.381589518368457,temperature
+CountryB,small,extreme,PQ6,196.15701545414987,rainfall
+CountryB,small,extreme,PQ7,22.317016264712045,temperature
+CountryB,small,extreme,PQ7,194.93188224156813,rainfall
+CountryB,small,extreme,PQ8,29.413777047064986,temperature
+CountryB,small,extreme,PQ8,179.92025873523917,rainfall
+CountryB,small,extreme,PQ9,26.304479368667913,temperature
+CountryB,small,extreme,PQ9,187.4287966624947,rainfall
+CountryB,small,extreme,PQ10,22.930202845077968,temperature
+CountryB,small,extreme,PQ10,184.8943555312918,rainfall
+CountryB,small,extreme,PQ11,26.17876691917524,temperature
+CountryB,small,extreme,PQ11,101.32368577588994,rainfall
+CountryB,small,extreme,PQ12,23.472335179322194,temperature
+CountryB,small,extreme,PQ12,114.8140860948165,rainfall
+CountryB,small,very extreme,PQ0,29.81829389818253,temperature
+CountryB,small,very extreme,PQ0,147.8370307039988,rainfall
+CountryB,small,very extreme,PQ1,24.973913654986628,temperature
+CountryB,small,very extreme,PQ1,163.94725163987238,rainfall
+CountryB,small,very extreme,PQ2,23.685846061296175,temperature
+CountryB,small,very extreme,PQ2,113.6900271685599,rainfall
+CountryB,small,very extreme,PQ3,28.221177331942457,temperature
+CountryB,small,very extreme,PQ3,118.9847911902758,rainfall
+CountryB,small,very extreme,PQ4,25.11318982546456,temperature
+CountryB,small,very extreme,PQ4,122.43170289747393,rainfall
+CountryB,small,very extreme,PQ5,20.97844484494034,temperature
+CountryB,small,very extreme,PQ5,186.21915174216832,rainfall
+CountryB,small,very extreme,PQ6,29.729194890231305,temperature
+CountryB,small,very extreme,PQ6,196.0834658063,rainfall
+CountryB,small,very extreme,PQ7,29.065554992211787,temperature
+CountryB,small,very extreme,PQ7,177.40473326986387,rainfall
+CountryB,small,very extreme,PQ8,23.331451520286418,temperature
+CountryB,small,very extreme,PQ8,108.11013899879967,rainfall
+CountryB,small,very extreme,PQ9,24.072411714138074,temperature
+CountryB,small,very extreme,PQ9,123.22341421709427,rainfall
+CountryB,small,very extreme,PQ10,21.32487634757983,temperature
+CountryB,small,very extreme,PQ10,105.34271817868253,rainfall
+CountryB,small,very extreme,PQ11,27.255943642105787,temperature
+CountryB,small,very extreme,PQ11,101.1427458625031,rainfall
+CountryB,small,very extreme,PQ12,27.705807485027762,temperature
+CountryB,small,very extreme,PQ12,114.69466454003751,rainfall
+CountryC,large,mild,PQ0,20.795220825867556,temperature
+CountryC,large,mild,PQ0,108.96030342386054,rainfall
+CountryC,large,mild,PQ1,26.720478073539145,temperature
+CountryC,large,mild,PQ1,124.53672098528448,rainfall
+CountryC,large,mild,PQ2,24.205394666800984,temperature
+CountryC,large,mild,PQ2,155.7368791323917,rainfall
+CountryC,large,mild,PQ3,28.605511738287937,temperature
+CountryC,large,mild,PQ3,172.70442627113283,rainfall
+CountryC,large,mild,PQ4,22.703279052387145,temperature
+CountryC,large,mild,PQ4,113.14827992911276,rainfall
+CountryC,large,mild,PQ5,20.55374320421198,temperature
+CountryC,large,mild,PQ5,130.15986344809426,rainfall
+CountryC,large,mild,PQ6,22.621181492396783,temperature
+CountryC,large,mild,PQ6,145.61405668004795,rainfall
+CountryC,large,mild,PQ7,26.832813355476805,temperature
+CountryC,large,mild,PQ7,169.56254456388572,rainfall
+CountryC,large,mild,PQ8,22.835188465821666,temperature
+CountryC,large,mild,PQ8,137.99269559001203,rainfall
+CountryC,large,mild,PQ9,21.81150961736903,temperature
+CountryC,large,mild,PQ9,178.85455123065185,rainfall
+CountryC,large,mild,PQ10,20.568480764332403,temperature
+CountryC,large,mild,PQ10,169.69972417249875,rainfall
+CountryC,large,mild,PQ11,27.786953959411033,temperature
+CountryC,large,mild,PQ11,177.7407561848753,rainfall
+CountryC,large,mild,PQ12,22.594225643453548,temperature
+CountryC,large,mild,PQ12,137.38131379325614,rainfall
+CountryC,large,extreme,PQ0,25.87599635196389,temperature
+CountryC,large,extreme,PQ0,127.2821902424467,rainfall
+CountryC,large,extreme,PQ1,23.708527992178887,temperature
+CountryC,large,extreme,PQ1,119.70542801856396,rainfall
+CountryC,large,extreme,PQ2,24.598558837560073,temperature
+CountryC,large,extreme,PQ2,104.4612301254114,rainfall
+CountryC,large,extreme,PQ3,27.99795884570618,temperature
+CountryC,large,extreme,PQ3,107.69564469866327,rainfall
+CountryC,large,extreme,PQ4,25.18835148831526,temperature
+CountryC,large,extreme,PQ4,130.6810099545196,rainfall
+CountryC,large,extreme,PQ5,25.775429488313755,temperature
+CountryC,large,extreme,PQ5,195.9433340833425,rainfall
+CountryC,large,extreme,PQ6,26.45570244456004,temperature
+CountryC,large,extreme,PQ6,103.5362435755491,rainfall
+CountryC,large,extreme,PQ7,24.30402439508061,temperature
+CountryC,large,extreme,PQ7,151.00168523182504,rainfall
+CountryC,large,extreme,PQ8,25.36177494703452,temperature
+CountryC,large,extreme,PQ8,168.1392510603838,rainfall
+CountryC,large,extreme,PQ9,22.77596097731766,temperature
+CountryC,large,extreme,PQ9,112.88605654663202,rainfall
+CountryC,large,extreme,PQ10,23.926756765470945,temperature
+CountryC,large,extreme,PQ10,195.6405722795949,rainfall
+CountryC,large,extreme,PQ11,21.871308917508447,temperature
+CountryC,large,extreme,PQ11,190.39839549282368,rainfall
+CountryC,large,extreme,PQ12,25.438059500773264,temperature
+CountryC,large,extreme,PQ12,145.69114216457658,rainfall
+CountryC,large,very extreme,PQ0,28.820414102298898,temperature
+CountryC,large,very extreme,PQ0,145.8603961768586,rainfall
+CountryC,large,very extreme,PQ1,27.241676366115435,temperature
+CountryC,large,very extreme,PQ1,139.9025321703102,rainfall
+CountryC,large,very extreme,PQ2,29.040443929009577,temperature
+CountryC,large,very extreme,PQ2,169.00250201912274,rainfall
+CountryC,large,very extreme,PQ3,26.996220542505167,temperature
+CountryC,large,very extreme,PQ3,132.7720401557119,rainfall
+CountryC,large,very extreme,PQ4,27.567786427368894,temperature
+CountryC,large,very extreme,PQ4,163.60610554471413,rainfall
+CountryC,large,very extreme,PQ5,22.400202733797094,temperature
+CountryC,large,very extreme,PQ5,116.05388224852564,rainfall
+CountryC,large,very extreme,PQ6,27.96391474517332,temperature
+CountryC,large,very extreme,PQ6,195.91666030352224,rainfall
+CountryC,large,very extreme,PQ7,24.581388272600428,temperature
+CountryC,large,very extreme,PQ7,159.0984165323685,rainfall
+CountryC,large,very extreme,PQ8,28.577226441935544,temperature
+CountryC,large,very extreme,PQ8,145.7223453353857,rainfall
+CountryC,large,very extreme,PQ9,29.518744768327362,temperature
+CountryC,large,very extreme,PQ9,157.57511620448724,rainfall
+CountryC,large,very extreme,PQ10,28.20767120701315,temperature
+CountryC,large,very extreme,PQ10,190.88437184127383,rainfall
+CountryC,large,very extreme,PQ11,28.15523818768569,temperature
+CountryC,large,very extreme,PQ11,115.9414463448956,rainfall
+CountryC,large,very extreme,PQ12,26.288984390617003,temperature
+CountryC,large,very extreme,PQ12,139.84342586196772,rainfall
+CountryC,small,mild,PQ0,20.627129520233456,temperature
+CountryC,small,mild,PQ0,142.4032251889842,rainfall
+CountryC,small,mild,PQ1,22.586840668894077,temperature
+CountryC,small,mild,PQ1,184.90383084285108,rainfall
+CountryC,small,mild,PQ2,20.33304626546696,temperature
+CountryC,small,mild,PQ2,195.89827218634736,rainfall
+CountryC,small,mild,PQ3,23.553688484719295,temperature
+CountryC,small,mild,PQ3,135.67068904025427,rainfall
+CountryC,small,mild,PQ4,20.16328502683708,temperature
+CountryC,small,mild,PQ4,118.52323252361839,rainfall
+CountryC,small,mild,PQ5,24.012595008036087,temperature
+CountryC,small,mild,PQ5,192.9291417302714,rainfall
+CountryC,small,mild,PQ6,20.996149302212714,temperature
+CountryC,small,mild,PQ6,194.53015334790797,rainfall
+CountryC,small,mild,PQ7,28.69488530546632,temperature
+CountryC,small,mild,PQ7,145.41623969075516,rainfall
+CountryC,small,mild,PQ8,23.2670088176826,temperature
+CountryC,small,mild,PQ8,123.27441292790569,rainfall
+CountryC,small,mild,PQ9,26.144647064768744,temperature
+CountryC,small,mild,PQ9,103.30745914755056,rainfall
+CountryC,small,mild,PQ10,20.156060644468283,temperature
+CountryC,small,mild,PQ10,142.87957224982378,rainfall
+CountryC,small,mild,PQ11,20.6807407397472,temperature
+CountryC,small,mild,PQ11,125.19409882460928,rainfall
+CountryC,small,mild,PQ12,22.211609153460838,temperature
+CountryC,small,mild,PQ12,125.3191193722852,rainfall
+CountryC,small,extreme,PQ0,21.310552312152577,temperature
+CountryC,small,extreme,PQ0,101.20362228976543,rainfall
+CountryC,small,extreme,PQ1,21.15484297138748,temperature
+CountryC,small,extreme,PQ1,161.8480259512748,rainfall
+CountryC,small,extreme,PQ2,29.742562128180502,temperature
+CountryC,small,extreme,PQ2,199.0345001560894,rainfall
+CountryC,small,extreme,PQ3,24.090540953730617,temperature
+CountryC,small,extreme,PQ3,116.29544260466054,rainfall
+CountryC,small,extreme,PQ4,26.387617573665292,temperature
+CountryC,small,extreme,PQ4,149.03053465487372,rainfall
+CountryC,small,extreme,PQ5,29.894097772844315,temperature
+CountryC,small,extreme,PQ5,106.53042071517802,rainfall
+CountryC,small,extreme,PQ6,27.832344383138132,temperature
+CountryC,small,extreme,PQ6,128.83984973314938,rainfall
+CountryC,small,extreme,PQ7,22.41418620076574,temperature
+CountryC,small,extreme,PQ7,166.25045715326758,rainfall
+CountryC,small,extreme,PQ8,22.460631849909646,temperature
+CountryC,small,extreme,PQ8,166.58591175591877,rainfall
+CountryC,small,extreme,PQ9,25.173085172022887,temperature
+CountryC,small,extreme,PQ9,142.40889884358492,rainfall
+CountryC,small,extreme,PQ10,25.54687808661419,temperature
+CountryC,small,extreme,PQ10,128.70515199196296,rainfall
+CountryC,small,extreme,PQ11,27.06574706272979,temperature
+CountryC,small,extreme,PQ11,141.48568693335642,rainfall
+CountryC,small,extreme,PQ12,23.60545560485892,temperature
+CountryC,small,extreme,PQ12,182.86569145557377,rainfall
+CountryC,small,very extreme,PQ0,29.249669119531923,temperature
+CountryC,small,very extreme,PQ0,104.60073108872969,rainfall
+CountryC,small,very extreme,PQ1,22.326269928297656,temperature
+CountryC,small,very extreme,PQ1,134.85193694925633,rainfall
+CountryC,small,very extreme,PQ2,28.149664793702474,temperature
+CountryC,small,very extreme,PQ2,198.54914276432976,rainfall
+CountryC,small,very extreme,PQ3,29.689717046703517,temperature
+CountryC,small,very extreme,PQ3,190.49483455499268,rainfall
+CountryC,small,very extreme,PQ4,22.965562650640297,temperature
+CountryC,small,very extreme,PQ4,199.2011243414474,rainfall
+CountryC,small,very extreme,PQ5,22.494200410564513,temperature
+CountryC,small,very extreme,PQ5,110.59061548822322,rainfall
+CountryC,small,very extreme,PQ6,29.509526110553942,temperature
+CountryC,small,very extreme,PQ6,123.34202554680962,rainfall
+CountryC,small,very extreme,PQ7,26.897682650777504,temperature
+CountryC,small,very extreme,PQ7,105.83563589805887,rainfall
+CountryC,small,very extreme,PQ8,27.307090991274762,temperature
+CountryC,small,very extreme,PQ8,188.172021233384,rainfall
+CountryC,small,very extreme,PQ9,22.724368954659624,temperature
+CountryC,small,very extreme,PQ9,137.90568960774286,rainfall
+CountryC,small,very extreme,PQ10,23.74296183320916,temperature
+CountryC,small,very extreme,PQ10,174.8788257540133,rainfall
+CountryC,small,very extreme,PQ11,22.37807242539039,temperature
+CountryC,small,very extreme,PQ11,117.1853099047643,rainfall
+CountryC,small,very extreme,PQ12,24.49291648687738,temperature
+CountryC,small,very extreme,PQ12,130.44684073773195,rainfall
