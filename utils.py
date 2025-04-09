@@ -1,59 +1,51 @@
-Sub SplitWorkbook()
-    Dim wbOriginal As Workbook
-    Dim wbOtherTabs As Workbook
-    Dim wbAnalysis As Workbook
-    Dim ws As Worksheet
-    Dim filePath As String
-    Dim formulaRange As Range
+import openpyxl
+from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.hyperlink import Hyperlink
+
+def add_table_of_contents(excel_path):
+    # Load the workbook
+    wb = openpyxl.load_workbook(excel_path)
     
-    ' Set the original workbook
-    Set wbOriginal = ThisWorkbook
+    # Get all existing sheet names
+    original_sheets = wb.sheetnames
     
-    ' Define the file path for saving (modify as needed)
-    filePath = wbOriginal.Path & "\"
+    # Create new Table_of_Contents sheet
+    toc_sheet = wb.create_sheet("Table_of_Contents", 0)  # 0 means insert at beginning
     
-    ' Step 1: Create a new workbook for all tabs except Summary and Analysis
-    Set wbOtherTabs = Workbooks.Add
-    For Each ws In wbOriginal.Worksheets
-        If ws.Name <> "Summary" And ws.Name <> "Analysis" Then
-            ws.Copy Before:=wbOtherTabs.Sheets(1)
-            ' Delete the default Sheet1 that comes with a new workbook (if it's still there)
-            If wbOtherTabs.Sheets.Count > 1 Then
-                Application.DisplayAlerts = False
-                wbOtherTabs.Sheets(wbOtherTabs.Sheets.Count).Delete
-                Application.DisplayAlerts = True
-            End If
-        End If
-    Next ws
+    # Add header
+    toc_sheet['A1'] = "Table of Contents"
+    toc_sheet['A1'].font = openpyxl.styles.Font(bold=True)
     
-    ' Save the new workbook with other tabs
-    wbOtherTabs.SaveAs filePath & "OtherTabs.xlsx"
-    wbOtherTabs.Close SaveChanges:=False
+    # Add sheet names with hyperlinks
+    for i, sheet_name in enumerate(original_sheets, start=2):
+        cell = f'A{i}'
+        toc_sheet[cell] = sheet_name
+        
+        # Create hyperlink to the respective sheet
+        hyperlink = Hyperlink(ref=f"{sheet_name}!A1", 
+                            location=f"'{sheet_name}'!A1",
+                            tooltip=f"Go to {sheet_name}",
+                            display=sheet_name)
+        toc_sheet[cell].hyperlink = hyperlink
+        toc_sheet[cell].style = "Hyperlink"
     
-    ' Step 2: Create a new workbook for the Analysis tab
-    Set wbAnalysis = Workbooks.Add
-    wbOriginal.Sheets("Analysis").Copy Before:=wbAnalysis.Sheets(1)
+    # Add return hyperlink to each original sheet
+    for sheet_name in original_sheets:
+        sheet = wb[sheet_name]
+        # Create hyperlink back to Table_of_Contents
+        hyperlink = Hyperlink(ref="Table_of_Contents!A1",
+                            location="'Table_of_Contents'!A1",
+                            tooltip="Return to Table of Contents",
+                            display="Table of Contents")
+        sheet['A1'].hyperlink = hyperlink
+        sheet['A1'].style = "Hyperlink"
     
-    ' Delete the default Sheet1 in the new Analysis workbook
-    Application.DisplayAlerts = False
-    wbAnalysis.Sheets(wbAnalysis.Sheets.Count).Delete
-    Application.DisplayAlerts = True
+    # Adjust column width for better visibility
+    toc_sheet.column_dimensions['A'].width = 20
     
-    ' Adjust formulas in the Analysis tab to remove external references
-    With wbAnalysis.Sheets("Analysis")
-        On Error Resume Next ' In case no formulas are found
-        Set formulaRange = .Cells.SpecialCells(xlCellTypeFormulas)
-        On Error GoTo 0
-        If Not formulaRange Is Nothing Then
-            formulaRange.Replace What:="[" & wbOriginal.Name & "]", Replacement:="", LookAt:=xlPart
-        End If
-    End With
-    
-    ' Save the Analysis workbook
-    wbAnalysis.SaveAs filePath & "AnalysisLocal.xlsx"
-    wbAnalysis.Close SaveChanges:=False
-    
-    MsgBox "Files created successfully!" & vbNewLine & _
-           "1. OtherTabs.xlsx" & vbNewLine & _
-           "2. AnalysisLocal.xlsx", vbInformation
-End Sub
+    # Save the modified workbook
+    wb.save(excel_path)
+    wb.close()
+
+# Example usage:
+# add_table_of_contents("path/to/your/excel_file.xlsx")
