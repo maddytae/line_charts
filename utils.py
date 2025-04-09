@@ -129,3 +129,62 @@ def copy_sheet(source_ws, target_wb, new_title):
 
     return target_ws
 
+
+Sub ExportDataAndAnalysis()
+
+    Dim ws As Worksheet
+    Dim wbSource As Workbook
+    Dim wbData As Workbook
+    Dim wbAnalysis As Workbook
+    Dim analysisSheet As Worksheet
+    Dim sheetName As String
+    
+    Set wbSource = ThisWorkbook
+
+    ' === 1. Export all sheets except "summary" and "analysis" ===
+    Set wbData = Workbooks.Add(xlWBATWorksheet)
+    
+    ' Remove the default sheet
+    Application.DisplayAlerts = False
+    wbData.Sheets(1).Delete
+    Application.DisplayAlerts = True
+
+    For Each ws In wbSource.Sheets
+        sheetName = LCase(ws.Name)
+        If sheetName <> "summary" And sheetName <> "analysis" Then
+            ws.Copy After:=wbData.Sheets(wbData.Sheets.Count)
+        End If
+    Next ws
+
+    ' Save DataOnly.xlsx
+    wbData.SaveAs Filename:=wbSource.Path & "\DataOnly.xlsx", FileFormat:=xlOpenXMLWorkbook
+    wbData.Close SaveChanges:=False
+
+    ' === 2. Export "analysis" sheet with local formulas ===
+    Set wbAnalysis = Workbooks.Add(xlWBATWorksheet)
+
+    Application.DisplayAlerts = False
+    wbAnalysis.Sheets(1).Delete
+    Application.DisplayAlerts = True
+
+    wbSource.Sheets("analysis").Copy After:=wbAnalysis.Sheets(wbAnalysis.Sheets.Count)
+
+    ' Now remove external references in formulas
+    Set analysisSheet = wbAnalysis.Sheets(wbAnalysis.Sheets.Count)
+    
+    Dim cell As Range
+    For Each cell In analysisSheet.UsedRange
+        If cell.HasFormula Then
+            cell.Formula = Replace(cell.Formula, "[" & wbSource.Name & "]", "")
+        End If
+    Next cell
+
+    ' Save AnalysisOnly.xlsx
+    wbAnalysis.SaveAs Filename:=wbSource.Path & "\AnalysisOnly.xlsx", FileFormat:=xlOpenXMLWorkbook
+    wbAnalysis.Close SaveChanges:=False
+
+    MsgBox "Export complete!"
+
+End Sub
+
+
