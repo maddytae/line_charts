@@ -1,20 +1,29 @@
-#!/usr/bin/env python3
-from datetime import datetime
+@echo off
+ECHO Starting the Python script from py_env...
 
-# Get current time
-current_time = datetime.now()
+:: Set the path to the virtual environment
+SET VENV_PATH=D:\projects\py_env
 
-# Format time for filename (avoiding special characters that might cause issues)
-filename_time = current_time.strftime("%Y-%m-%d_%H-%M-%S")
-filename = f"time_{filename_time}.txt"
+:: Set the path to the Python script
+SET PYTHON_SCRIPT=D:\projects\my_script.py
 
-# Format time for content
-time_string = current_time.strftime("%Y-%m-%d %H:%M:%S")
+:: Activate the virtual environment
+CALL %VENV_PATH%\Scripts\activate.bat
+IF %ERRORLEVEL% NEQ 0 (
+    ECHO Failed to activate virtual environment.
+    pause
+    exit /b %ERRORLEVEL%
+)
 
-# Write to file
-try:
-    with open(filename, 'w') as file:
-        file.write(time_string)
-    print(f"Time written to {filename}")
-except Exception as e:
-    print(f"Error writing to file: {e}")
+:: Run the Python script
+python %PYTHON_SCRIPT%
+IF %ERRORLEVEL% NEQ 0 (
+    ECHO Python script failed to run.
+    pause
+    exit /b %ERRORLEVEL%
+)
+
+:: Deactivate the virtual environment
+CALL deactivate
+ECHO Script execution completed.
+pause
